@@ -1,9 +1,5 @@
-from this import d
-
-
 def deaf_grandma():
     goodbye = False
-    switch = 0
     print("")
     print("*************************")
     print("Deaf Grandma: HEY KID!\n")
@@ -27,7 +23,6 @@ def deaf_grandma():
             deaf_grandma()
         elif speak.upper() == speak:
             print("")
-            print("goodbye = ",goodbye)
             print("Deaf Grandma: NO, NOT SINCE 1946\n")
             deaf_grandma()
         elif (speak.upper() != speak):
